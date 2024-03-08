@@ -30,9 +30,9 @@
 - Initializing a React project from the command line is easy using Vite.
 - Vite builds frontend tools for developers and leverages the latest technologies under the hood to provide a great developer experience.
 - Vite also caters to the React ecosystem.
-- **NOTE:** Ensure you are using the LTS version of Node to prevent potential errors.
 #### CLI Vite Process
-`npm create vite@latest PROJECT-NAME -- --template react`
+- **NOTE:** Ensure you are using the LTS version of Node to prevent potential errors.
+- Enter `npm create vite@latest PROJECT-NAME -- --template react`
 - You may see:
 `Need to install the following packages:`
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`create-vite@5.X.X`
@@ -41,3 +41,13 @@
 - After execution, you then navigate into the application directory that was created and run:
   1. `npm install`
   2. `npm run dev`
+
+#### Application Folder
+- Inside the new project directory, you will see several folders, as well as the files:
+  1. `package.json`
+  2. `package-lock.json`
+  3. `.gitignore`
+  4. `README.md`
+- The `public` folder houses all the static assets related to your app (images, icons, information files for the browser, etc.)
+- The `src` folder houses all the code that runs your app
+  - Within the `src` folder, the `main.jsx` file acts as the entry point for the application
